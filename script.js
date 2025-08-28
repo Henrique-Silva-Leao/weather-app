@@ -11,7 +11,7 @@ buscarBtn.onclick = async function()
 {
 
     const cidadetxt = cidadeInput.value
-    const urlDecdGeo = `http://api.openweathermap.org/geo/1.0/direct?q=${cidadetxt},BR&limit=1&appid=${key}`;
+    const urlDecdGeo = `https://api.openweathermap.org/geo/1.0/direct?q=${cidadetxt},BR&limit=1&appid=${key}`;
 
     const resp = await fetch(urlDecdGeo);
 
