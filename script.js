@@ -45,7 +45,7 @@ buscarBtn.onclick = async function()
 
     const tempcels = tempKelvin - 273.15
     nomeCidadeTxt.textContent = cidadetxt
-    descricaoTxt.innerHTML  = ("Temperatura: " + tempcels.toFixed(1) + "°C")
+    temperaturaTxt.innerHTML  = ("Temperatura: " + tempcels.toFixed(1) + "°C")
 
 
    
