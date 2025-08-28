@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255)
+}
+
+.container{
+    
+    border: 1px, solid;
+    border-color: aqua;
+    border-radius: 5%;
+    background-color: aquamarine;
+
+}
+
+#clima-info{
+    text-align: center;
+}
